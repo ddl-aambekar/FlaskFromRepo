@@ -1,0 +1,16 @@
+./app.sh: line 1: !/usr/bin/env: No such file or directory
+Starting server...
+ * Serving Flask app "run.py" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://0.0.0.0:8888/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 258-784-075
+10.0.40.19 - - [03/Apr/2020 01:28:45] "[37mGET / HTTP/1.1[0m" 200 -
+10.0.40.19 - - [03/Apr/2020 01:28:45] "[37mGET / HTTP/1.1[0m" 200 -
+10.0.194.105 - - [03/Apr/2020 01:32:08] "[37mGET / HTTP/1.1[0m" 200 -
+10.0.194.105 - - [03/Apr/2020 01:32:08] "[37mGET / HTTP/1.1[0m" 200 -
+10.0.194.105 - - [03/Apr/2020 01:32:11] "[37mGET /another_page HTTP/1.1[0m" 200 -
