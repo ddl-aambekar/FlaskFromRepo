@@ -9,4 +9,4 @@ def index():
     
 @app.route('/another_page')
 def another_page():
-    return flask.render_template("index.html")
+    return flask.render_template("cool_form.html")
